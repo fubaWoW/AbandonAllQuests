@@ -10,7 +10,7 @@ translations.enUS = {
 }
 
 translations.deDE = {
-    MAP_BUTTON_LABEL = "Alle quests abbrechen",
+    MAP_BUTTON_LABEL = "Alle Quests abbrechen",
     ABANDON_DIALOG_QUESTION = "Bist du sicher, dass du alle Quests abbrechen willst?",
     ABANDON_QUEST_SUCCESS = "Quest abgebrochen: %s",
 }
