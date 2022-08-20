@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 90207
 ## Title: AbandonAllQuests
 ## Notes: Abandon all quests at once through the click of a button.
 ## Author: scholle
