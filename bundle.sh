@@ -1,5 +1,15 @@
-mkdir AbandonAllQuests
-cp AbandonAllQuests.lua AbandonAllQuests/
-cp AbandonAllQuests.toc AbandonAllQuests/
-cp Locale.lua AbandonAllQuests/
-tar -a -c -f AbandonAllQuests.zip AbandonAllQuests/
+AddonName=AbandonAllQuests
+srcDir=src
+targetDir=target
+targetSrc=${targetDir}/${AddonName}
+zipFile=${AddonName}.zip
+
+rm -rf ${targetDir}
+mkdir -p ${targetSrc}
+cp -R ${srcDir}/. ${targetSrc}
+cd ${targetDir}
+tar -c -f ${zipFile} ${AddonName}
+cd ..
+
+# dev deploy into addon folder
+cp -R ${srcDir}/. .

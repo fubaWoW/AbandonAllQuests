@@ -1,1 +1,3 @@
-AbandonAllQuests.zip
+target/
+./*.lua
+./*.toc
