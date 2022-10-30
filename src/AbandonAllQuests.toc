@@ -1,6 +1,6 @@
-## Interface: 90207
+## Interface: 10000
 ## Title: AbandonAllQuests
-## Notes: Abandon all quests at once through the click of a button.
+## Notes: Abandon all quests through the click of a button.
 ## Author: scholle
 ## Version: 1.0
 
