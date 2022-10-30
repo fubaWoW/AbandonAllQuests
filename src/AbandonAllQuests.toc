@@ -1,8 +1,8 @@
 ## Interface: 10000
 ## Title: AbandonAllQuests
-## Notes: Abandon all quests through the click of a button.
+## Notes: Remove all quests from your quest log with the click of a button
 ## Author: scholle
-## Version: 1.0
+## Version: 1.0.1
 
 AbandonAllQuests.lua
 Locale.lua
