@@ -80,9 +80,9 @@ function AbandonAllQuests_abandonAllQuestsConfirm()
             DEFAULT_CHAT_FRAME:AddMessage(format(namespace.AbandonAllQuests_GetTranslation("SKIPPED_QUEST"), questInfo.title), 1.0, 0.3, 0.0)
         elseif questInfo.questID ~= 0 and not questInfo.isHeader and not questInfo.isHidden and not tableContains(blacklist, questInfo.questID) then
             DEFAULT_CHAT_FRAME:AddMessage(format(namespace.AbandonAllQuests_GetTranslation("ABANDON_QUEST_SUCCESS"), questInfo.title), 1.0, 1.0, 0.0)
-            --C_QuestLog.SetSelectedQuest(questInfo.questID)
-            --C_QuestLog.SetAbandonQuest()
-            --C_QuestLog.AbandonQuest()
+            C_QuestLog.SetSelectedQuest(questInfo.questID)
+            C_QuestLog.SetAbandonQuest()
+            C_QuestLog.AbandonQuest()
         end
     end
 end
