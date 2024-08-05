@@ -3,7 +3,8 @@ local ADDON_NAME, namespace = ...
 namespace.BlackListTable = {
 	24756, -- Blood Infusion (DK Legendary Quest from WotLK)
 
-	29433, -- Test Your Strength (Darkmoon Quest)
+	29507, -- Fun for the Little Ones (Darkmoon Archeology Quest)
+	29433, -- Test Your Strength (Darkmoon Quest)	
 
 	78421, -- The Power of Dreams, Amirdrasil Quest for Head Enchant
 
